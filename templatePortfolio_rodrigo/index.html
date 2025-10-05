@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rodrigo Guedes Silva — Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="home" aria-label="Seção principal">
+    <video class="bg-video" autoplay muted loop playsinline aria-hidden="true">
+      <source src="background.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <nav class="nav" id="nav">
+      <a class="logo" href="#home">
+        Rodrigo G. Silva
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1 class="reveal">Rodrigo Guedes Silva</h1>
+      <p class="lead reveal">Ciência da Computação — Uninassau Graças, Recife-PE</p>
+      <p class="meta reveal">Front-end • HTML • CSS • JavaScript</p>
+      <div class="hero-actions reveal">
+        <a href="#contato" class="btn primary">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section container card">
+      <h2>Sobre</h2>
+      <p>Olá — sou Rodrigo, estudante de Ciência da Computação com foco em desenvolvimento front-end. Gosto de interfaces limpas, acessíveis e de desempenho. Este portfólio usa HTML, CSS e JavaScript puro, com animações sutis e layout escuro.</p>
+    </section>
+
+    <section id="habilidades" class="section container">
+      <h2>Habilidades</h2>
+      <div class="grid skills">
+        <div class="skill card reveal">
+          <h3>HTML5</h3>
+          <p>Semântica e acessibilidade.</p>
+        </div>
+        <div class="skill card reveal">
+          <h3>CSS3</h3>
+          <p>Grid, Flexbox, temas e animações sutis.</p>
+        </div>
+        <div class="skill card reveal">
+          <h3>JavaScript</h3>
+          <p>DOM, fetch, interações e animações com IntersectionObserver.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section container card">
+      <h2>Contato</h2>
+      <p>📧 <a href="mailto:rodrigo@exemplo.com">rodrigogueedes7@gmail.com</a></p>
+      <p>💼 GitHub: <a href="https://github.com/RodrigooGuedes" target="_blank" rel="noopener">https://github.com/RodrigooGuedes</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Rodrigo Guedes Silva — Ciência da Computação</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
